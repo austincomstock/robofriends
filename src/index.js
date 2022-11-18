@@ -3,8 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./containers/App.js";
 import reportWebVitals from "./reportWebVitals";
-import "tachyons";
-// tachyons are prebuilt styles that we can use - we instlled this package using npm install tachyons
+import "tachyons"; // tachyons are prebuilt styles that we can use - we installed this package using npm install tachyons
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
